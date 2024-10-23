@@ -98,11 +98,15 @@ export const questPopulation = JSON.stringify([
       },
     ],
   },
+  {
+    path: 'tags'
+  }
 ]);
 
 export const baseUrl = `https://api-stm-dev.stardevs.xyz/v1`;
 // export const baseUrl = `https://startdev.ngrok.app/v1`;
 export const questUrl = `${baseUrl}/quest`;
+export const migrationsUrl = `${baseUrl}/migrations`;
 export const tagsUrl = `${baseUrl}/tags`;
 export const typesUrl = `${baseUrl}/constants`;
 export const promoteItemUrl = `${baseUrl}/migrations/push`;

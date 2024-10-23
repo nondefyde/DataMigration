@@ -15,6 +15,7 @@
     "framer-motion": "^11.11.8",
     "ldrs": "^1.0.2",
     "lodash": "^4.17.21",
+    "moment": "^2.30.1",
     "next": "14.2.15",
     "next-themes": "^0.3.0",
     "react": "^18",

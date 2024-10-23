@@ -143,7 +143,7 @@ const Quest = ({
               onChange={(value: any) => {
                 console.log('tagssss', value);
                 isEmpty(value)
-                  ? setFilterData({ ...omit(filterData, 'tag') })
+                  ? setFilterData({ ...omit(filterData, 'tags') })
                   : setFilterData({ ...filterData, tags: JSON.stringify(value) });
               }}
               // size="small"
